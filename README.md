@@ -27,6 +27,100 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
 9. Copy <b>adafruit_hid</b> folder in the <b>lib</b> folder of <b>CIRCUITPY</b>.<br>
 10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
 
+# Mnemonic Table
+<table>
+ <tr>
+  <th>Mnemonics</th>
+  <th>Description</th>
+  <th>Example</th>
+ </tr>
+ <tr>
+  <th>TIME</th>
+  <th>It adds the <i>time</i> library in the code.</th>
+  <th>Just type TIME</th>
+ </tr>
+ <tr>
+  <th>BD</th>
+  <th>It adds the <i>board</i> library in the code.</th>
+  <th>Just type BD</th>
+ </tr>
+ <tr>
+  <th>DGIO</th>
+  <th>It adds the <i>digitalio</i> library in the code.</th>
+  <th>Just type DGIO</th>
+ </tr>
+ <tr>
+  <th>HID</th>
+  <th>It adds the <i>usb_hid</i> library in the code.</th>
+  <th>Just type HID</th>
+ </tr>
+ <tr>
+  <th>HLIB</th>
+  <th>It adds the <i>Keycode</i>, <i>Keyboard</i> and <i>KeyboardLayoutUS</i> libaries in the code.</th>
+  <th>Just type HLIB</th>
+ </tr>
+ <tr>
+  <th>KYBD</th>
+  <th>It create objects for keycode and keyboard layout in the code.</th>
+  <th>Just type KYBD</th>
+ </tr>
+ <tr>
+  <th>PIN</th>
+  <th>It add pin number of led in the code.</th>
+  <th>PIN 25</th>
+ </tr>
+ <tr>
+  <th>LV</th>
+  <th>It turns on/off the led in the code.<br>Values are 0(OFF) and 1(ON).</th>
+  <th>LV 1</th>
+ </tr>
+ <tr>
+  <th>INTVL</th>
+  <th>It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.</th>
+  <th>TIME 1000</th>
+ </tr>
+ <tr>
+  <th>WRITE</th>
+  <th>It add text want to type in the code.</th>
+  <th>WRITE Hello World!</th>
+ </tr>
+ <tr>
+  <th>SCODE</th>
+  <th>It press and release the key immediately.</th>
+  <th>SCODE A</th>
+ </tr>
+ <tr>
+  <th>PCODE</th>
+  <th>It press and hold the key until AR is called to release all keys.</th>
+  <th>PCODE S</th>
+ </tr>
+ <tr>
+  <th>AR</th>
+  <th>It release all keys which is called by PCODE.</th>
+  <th>Just type AR</th>
+ </tr>
+ <tr>
+  <th>WHILE</th>
+  <th>It add the while loop in the code.<br>It accepts 1 as argument.</th>
+  <th>WHILE 1</th>
+ </tr>
+ <tr>
+  <th>GAP</th>
+  <th>It add a gap between two or more text vertically.</th>
+  <th>Just type GAP</th>
+ </tr>
+ <tr>
+  <th>NXT</th>
+  <th>It push the cursor to the next line.</th>
+  <th>Just type NXT</th>
+ </tr>
+ <tr>
+  <th>SP</th>
+  <th>It creates space for indentation.</th>
+  <th>Just type SP</th>
+ </tr>
+</table>
+
 # Tested Systems
 The tool is currently tested on : <br>
 1. Windows (10)<br>
