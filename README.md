@@ -1,6 +1,8 @@
 # PicoHID-Scripter
 A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico.
 
+# ⚠This project is only working for Raspberry Pi Pico!
+
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
 
