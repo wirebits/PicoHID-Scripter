@@ -4,6 +4,10 @@ A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
 
+# Demo Video
+
+https://github.com/wirebits/PicoHID-Scripter/assets/159493381/b46fbbb7-9dfc-4a79-b172-95441050441a
+
 # Setup and Installation of Circuit Python
 1. Make sure the python is installed on your system (Windows/Linux/MacOS).<br>
 2. Download Circuit Python <b>.uf2</b> file for Raspberry Pi Pico from <a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.2.10.uf2">here</a>.<br>
