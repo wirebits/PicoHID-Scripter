@@ -6,7 +6,7 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 
 # Demo Video
 
-https://github.com/wirebits/PicoHID-Scripter/assets/159493381/b46fbbb7-9dfc-4a79-b172-95441050441a
+https://github.com/wirebits/PicoHID-Scripter/assets/159493381/c7a531c7-b79f-46bb-b125-bbbec8d331d7
 
 # Setup and Installation of Circuit Python
 1. Make sure the python is installed on your system (Windows/Linux/MacOS).<br>
