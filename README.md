@@ -36,6 +36,12 @@ The testing is going on different systems.
 1. Download or Clone the Repository.<br>
 2. Open the folder and just double click on PicoHIDScripter.py file.<br>
 
+# Start/Stop the Raspberry Pi Pico
+1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
+
+![RPIPICO](https://github.com/wirebits/PicoHID-Scripter/assets/159493381/1be784c2-cc24-48e0-baa8-d3b94bc7646e)
+
+2. If want to start again the execution, simply remove the jumper wires.
 <h1>Key Features</h1>
 <b>1. Simple and clean GUI.</b><br>
 <b>2. Two large windows one for mnemonics and other for circuit python code.</b><br>
