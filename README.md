@@ -15,18 +15,18 @@ https://github.com/wirebits/PicoHID-Scripter/assets/159493381/c7a531c7-b79f-46bb
 2. Download Circuit Python <b>.uf2</b> file for Raspberry Pi Pico from <a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.2.10.uf2">here</a>.<br>
 3. Connect Raspberry Pi Pico with a USB cable.<br>
 4. Press and hold the bootsel button and connect to the PC/Laptop.<br>
--When it connects, then Raspberry Pi Pico show as a removable storage device named <b>RPI-RP2</b>.<br>
--When <b>RPI-RP2</b> is showing, then release the bootsel button.<br>
-5. Copy the uf2 file in the <b>RPI-RP2</b>.<br>
--When it is copied, then it disconnects automatically and reconnect as <b>CIRCUITPY</b>.<br>
+-When it connects, then Raspberry Pi Pico show as a removable storage device named ```RPI-RP2```.<br>
+-When ```RPI-RP2``` is showing, then release the bootsel button.<br>
+5. Copy the uf2 file in the ```RPI-RP2```.<br>
+-When it is copied, then it disconnects automatically and reconnect as ```CIRCUITPY```.<br>
 Means circuit python is successfully flashed in the Raspberry Pi Pico.
-6. Open <b>CIRCUITPY</b>.<br>
+6. Open ```CIRCUITPY```.<br>
 -There are two important things in it : <br>
 -<b>lib</b> folder<br>
 -<b>code.py</b> file<br>
 7. Download Adafruit HID Library from <a href="https://github.com/adafruit/Adafruit_CircuitPython_HID/releases/download/6.1.0/adafruit-circuitpython-hid-8.x-mpy-6.1.0.zip">here</a>.<br>
 8. Extarct the ZIP file.<br>
-9. Copy <b>adafruit_hid</b> folder in the <b>lib</b> folder of <b>CIRCUITPY</b>.<br>
+9. Copy <b>adafruit_hid</b> folder in the <b>lib</b> folder of ```CIRCUITPY```.<br>
 10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
 
 # Mnemonic Table
