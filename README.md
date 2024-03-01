@@ -1,7 +1,7 @@
 # PicoHID-Scripter
 A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico.
 
-# ⚠This project is only working for Raspberry Pi Pico!
+# This project is only working for Raspberry Pi Pico!
 
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
@@ -131,6 +131,11 @@ The testing is going on different systems.
 # Install and Run
 1. Download or Clone the Repository.<br>
 2. Open the folder and just double click on PicoHIDScripter.py file.<br>
+3. Type the mnemonics in the left window.<br>
+4. Click on ```Convert``` button to get corresponding circuit python script.<br>
+5. Click on ```Copy``` button to copy the circuit python script to the clipboard.<br>
+6. Paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
+-Be Careful! As it is saved the script start executing.
 
 # Start/Stop the Raspberry Pi Pico
 1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
