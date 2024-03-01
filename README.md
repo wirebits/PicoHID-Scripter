@@ -40,7 +40,7 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>Just type TIME</th>
  </tr>
  <tr>
-  <th>BD</th>
+  <th>BOARD</th>
   <th>It adds the <i>board</i> library in the code.</th>
   <th>Just type BD</th>
  </tr>
@@ -66,13 +66,13 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
  </tr>
  <tr>
   <th>PIN</th>
-  <th>It add pin number of led in the code.</th>
-  <th>PIN 25</th>
+  <th>It add pin declaration in the code.</th>
+  <th>Just type PIN</th>
  </tr>
  <tr>
-  <th>LV</th>
-  <th>It turns on/off the led in the code.<br>Values are 0(OFF) and 1(ON).</th>
-  <th>LV 1</th>
+  <th>LED</th>
+  <th>It turns on/off the led in the code.<br>Values are ON and OFF.</th>
+  <th>LED ON</th>
  </tr>
  <tr>
   <th>INTVL</th>
@@ -86,23 +86,18 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
  </tr>
  <tr>
   <th>SCODE</th>
-  <th>It press and release the key immediately.</th>
+  <th>It press and release the key(s) immediately.</th>
   <th>SCODE A</th>
  </tr>
  <tr>
   <th>PCODE</th>
-  <th>It press and hold the key until AR is called to release all keys.</th>
+  <th>It press and hold the key(s) and release all key(s).</th>
   <th>PCODE S</th>
  </tr>
  <tr>
-  <th>AR</th>
-  <th>It release all keys which is called by PCODE.</th>
-  <th>Just type AR</th>
- </tr>
- <tr>
   <th>WHILE</th>
-  <th>It add the while loop in the code.<br>It accepts 1 as argument.</th>
-  <th>WHILE 1</th>
+  <th>It add the while loop in the code.<br>It accepts True as argument.</th>
+  <th>WHILE True</th>
  </tr>
  <tr>
   <th>GAP</th>
@@ -133,7 +128,8 @@ The testing is going on different systems.
 4. Click on ```Convert``` button to get corresponding circuit python script.<br>
 5. Click on ```Copy``` button to copy the circuit python script to the clipboard.<br>
 6. Paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
--Be Careful! As it is saved the script start executing.
+-Be Careful! As it is saved the script start executing.<br>
+-To code use Raspberry Pi Pico, use Thonny IDE.
 
 # Start/Stop the Raspberry Pi Pico
 1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
