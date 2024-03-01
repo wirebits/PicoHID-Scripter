@@ -24,9 +24,9 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
 -There are two important things in it : <br>
 -<b>lib</b> folder<br>
 -<b>code.py</b> file<br>
-7. Download Adafruit HID Library from <a href="https://github.com/adafruit/Adafruit_CircuitPython_HID/releases/download/6.1.0/adafruit-circuitpython-hid-8.x-mpy-6.1.0.zip">here</a>.<br>
+7. Download Adafruit CircuitPython Bundle from <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20240301/adafruit-circuitpython-bundle-8.x-mpy-20240301.zip">here</a>.<br>
 8. Extarct the ZIP file.<br>
-9. Copy <b>adafruit_hid</b> folder in the <b>lib</b> folder of ```CIRCUITPY```.<br>
+9. Copy ```adafruit_hid``` folder in the ```lib``` folder of ```CIRCUITPY```.<br>
 10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
 
 # Mnemonic Table
