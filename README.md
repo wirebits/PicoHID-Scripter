@@ -21,9 +21,7 @@ https://github.com/wirebits/PicoHID-Scripter/assets/159493381/c7a531c7-b79f-46bb
 -When it is copied, then it disconnects automatically and reconnect as ```CIRCUITPY```.<br>
 Means circuit python is successfully flashed in the Raspberry Pi Pico.
 6. Open ```CIRCUITPY```.<br>
--There are two important things in it : <br>
--<b>lib</b> folder<br>
--<b>code.py</b> file<br>
+-There are two important things in it : ```lib``` folder and ```code.py``` file<br>
 7. Download Adafruit CircuitPython Bundle from <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20240301/adafruit-circuitpython-bundle-8.x-mpy-20240301.zip">here</a>.<br>
 8. Extarct the ZIP file.<br>
 9. Copy ```adafruit_hid``` folder in the ```lib``` folder of ```CIRCUITPY```.<br>
