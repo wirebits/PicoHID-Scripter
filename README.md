@@ -116,6 +116,32 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
  </tr>
 </table>
 
+# Mnemonic for Open Notepad and type
+
+```
+TIME
+NXT
+HID
+GAP
+HLIB
+GAP
+KYBD
+GAP
+PCODE GUI R
+NXT
+INTVL 1000
+NXT
+WRITE notepad
+NXT
+INTVL 1000
+NXT
+SCODE ENTER
+NXT
+INTVL 1000
+NXT
+WRITE Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
+```
+
 # Tested Systems
 The tool is currently tested on : <br>
 1. Windows (10)<br>
