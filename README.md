@@ -141,6 +141,28 @@ INTVL 1000
 NXT
 WRITE Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
+after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
+
+```
+import time
+import usb_hid
+
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+
+kbd = Keyboard(usb_hid.devices)
+layout = KeyboardLayoutUS(kbd)
+
+kbd.press(Keycode.GUI, Keycode.R)
+kbd.release_all()
+time.sleep(1.0)
+layout.write("notepad")
+time.sleep(1.0)
+kbd.send(Keycode.ENTER)
+time.sleep(1.0)
+layout.write("Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
+```
 
 # Tested Systems
 The tool is currently tested on : <br>
