@@ -77,7 +77,7 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
  <tr>
   <th>INTVL</th>
   <th>It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.</th>
-  <th>TIME 1000</th>
+  <th>INTVL 1000</th>
  </tr>
  <tr>
   <th>WRITE</th>
