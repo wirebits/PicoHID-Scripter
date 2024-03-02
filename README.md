@@ -167,6 +167,7 @@ layout.write("Hello World! This is a test for Raspberry Pi Pico script developed
 # Tested Systems
 The tool is currently tested on : <br>
 1. Windows (10)<br>
+2. Kali Linux<br>
 The testing is going on different systems.
 
 # Install and Run
