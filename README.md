@@ -177,7 +177,8 @@ The testing is going on different systems.
 5. Click on ```Copy``` button to copy the circuit python script to the clipboard.<br>
 6. Paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
 -Be Careful! As it is saved the script start executing.<br>
--To code use Raspberry Pi Pico, use Thonny IDE.
+-To code Raspberry Pi Pico, use Thonny IDE.<br>
+-Now, you can ```.exe``` file from Releases.
 
 # Start/Stop the Raspberry Pi Pico
 1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
