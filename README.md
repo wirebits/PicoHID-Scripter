@@ -106,7 +106,7 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
  </tr>
 </table>
 
-# Mnemonic for Open Notepad and type
+# Mnemonic for Open Notepad and Type
 
 ```
 TIME
