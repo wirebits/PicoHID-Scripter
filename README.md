@@ -94,16 +94,6 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>It press and hold the key(s) and release all key(s).</th>
   <th>PCODE S</th>
  </tr>
- <tr>
-  <th>WHILE</th>
-  <th>It add the while loop in the code.<br>It accepts True as argument.</th>
-  <th>WHILE True</th>
- </tr>
- <tr>
-  <th>SP</th>
-  <th>It creates space for indentation.</th>
-  <th>Just type SP</th>
- </tr>
 </table>
 
 # Mnemonic for Open Notepad and Type
@@ -146,7 +136,7 @@ kbd.send(Keycode.ENTER)
 time.sleep(1.0)
 layout.write("Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
 ```
-
+Just copy this code and paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
 # Tested Systems
 The tool is currently tested on : <br>
 1. Windows (10)<br>
