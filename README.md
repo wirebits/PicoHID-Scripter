@@ -8,7 +8,7 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 
 # Demo Video
 
-https://github.com/wirebits/PicoHID-Scripter/assets/159493381/c7a531c7-b79f-46bb-b125-bbbec8d331d7
+https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6-afa4-1aa63fe0a0d9
 
 # Setup and Installation of Circuit Python
 1. Make sure the python is installed on your system (Windows/Linux/MacOS).<br>
@@ -112,7 +112,7 @@ WRITE notepad
 WAIT 1000
 SCODE ENTER
 WAIT 1000
-WRITE Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
+WRITE This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
 after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
 
@@ -134,7 +134,7 @@ layout.write("notepad")
 time.sleep(1.0)
 kbd.send(Keycode.ENTER)
 time.sleep(1.0)
-layout.write("Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
+layout.write("This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
 ```
 Just copy this code and paste it in the ```code.py``` file in the ```CIRCUITPY```.<br>
 # Tested Systems
