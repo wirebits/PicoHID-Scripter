@@ -33,7 +33,7 @@ class PicoHIDConverter:
                 return "led.value = 1"
             elif led_value == "OFF":
                 return "led.value = 0"
-        elif pico_mnemonic.startswith("INTVL"):
+        elif pico_mnemonic.startswith("WAIT"):
             delay_time = int(pico_mnemonic.split(" ")[1])
             return f"time.sleep({delay_time / 1000})"
         elif pico_mnemonic.startswith("WRITE"):
