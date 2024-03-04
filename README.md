@@ -100,16 +100,6 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>WHILE True</th>
  </tr>
  <tr>
-  <th>GAP</th>
-  <th>It add a gap between two or more text vertically.</th>
-  <th>Just type GAP</th>
- </tr>
- <tr>
-  <th>NXT</th>
-  <th>It push the cursor to the next line.</th>
-  <th>Just type NXT</th>
- </tr>
- <tr>
   <th>SP</th>
   <th>It creates space for indentation.</th>
   <th>Just type SP</th>
@@ -120,25 +110,18 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
 
 ```
 TIME
-NXT
 HID
-GAP
+
 HLIB
-GAP
+
 KYBD
-GAP
+
 PCODE GUI R
-NXT
 INTVL 1000
-NXT
 WRITE notepad
-NXT
 INTVL 1000
-NXT
 SCODE ENTER
-NXT
 INTVL 1000
-NXT
 WRITE Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
 after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
