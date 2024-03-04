@@ -75,9 +75,9 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>LED ON</th>
  </tr>
  <tr>
-  <th>INTVL</th>
+  <th>WAIT</th>
   <th>It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.</th>
-  <th>INTVL 1000</th>
+  <th>WAIT 1000</th>
  </tr>
  <tr>
   <th>WRITE</th>
@@ -107,11 +107,11 @@ HLIB
 KYBD
 
 PCODE GUI R
-INTVL 1000
+WAIT 1000
 WRITE notepad
-INTVL 1000
+WAIT 1000
 SCODE ENTER
-INTVL 1000
+WAIT 1000
 WRITE Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
 after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
