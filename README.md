@@ -136,7 +136,7 @@ kbd.send(Keycode.ENTER)
 time.sleep(1.0)
 layout.write("Hello World! This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
 ```
-Just copy this code and paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
+Just copy this code and paste it in the ```code.py``` file in the ```CIRCUITPY```.<br>
 # Tested Systems
 The tool is currently tested on : <br>
 1. Windows (10)<br>
