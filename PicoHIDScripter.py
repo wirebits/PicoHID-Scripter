@@ -51,11 +51,6 @@ class PicoHIDConverter:
             formatted_sequence = ', '.join(key_sequence)
             output_string = f"kbd.press({formatted_sequence})\nkbd.release_all()"
             return output_string
-        elif pico_mnemonic.startswith("WHILE"):
-            condition = bool(pico_mnemonic.split(" ")[1])
-            return f"while {condition}:\n"
-        elif pico_mnemonic.startswith("SP"):
-            return "  "
         else:
             return pico_mnemonic
 
