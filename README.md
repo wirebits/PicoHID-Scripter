@@ -80,9 +80,9 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>WAIT 1000</th>
  </tr>
  <tr>
-  <th>WRITE</th>
+  <th>TYPE</th>
   <th>It add text want to type in the code.</th>
-  <th>WRITE Hello World!</th>
+  <th>TYPE Hello World!</th>
  </tr>
  <tr>
   <th>SCODE</th>
@@ -109,11 +109,11 @@ KYBD
 
 PCODE GUI R
 WAIT 1000
-WRITE notepad
+TYPE notepad
 WAIT 1000
 SCODE ENTER
 WAIT 1000
-WRITE This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
+TYPE This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
 after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
 
