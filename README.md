@@ -1,8 +1,6 @@
 # PicoHID-Scripter
 A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico.
 
-# This project is only working for Raspberry Pi Pico!
-
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
 
@@ -26,6 +24,10 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
 8. Extarct the ZIP file.<br>
 9. Copy ```adafruit_hid``` folder in the ```lib``` folder of ```CIRCUITPY```.<br>
 10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
+
+# Supported Boards
+- Raspberry Pi Pico
+- Waveshare RP2040 Zero
 
 # Mnemonic Table
 <table>
