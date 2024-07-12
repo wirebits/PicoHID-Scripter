@@ -94,7 +94,8 @@ pip3 install -r requirements.txt
 
 2. If want to start again the execution, simply remove the jumper wires.
 
-# Example
+# Examples
+## 1. Open Notepad and Type
 Mnemonic for Open Notepad and Type
 
 ```
@@ -133,5 +134,82 @@ time.sleep(1.0)
 kbd.send(Keycode.ENTER)
 time.sleep(1.0)
 layout.write("This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
+```
+Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
+
+## 2. Open CMD as Administartor Mode
+Mnemonic for Open CMD as Administartor Mode
+
+```
+HID
+
+HLIB
+
+KYBD
+
+SCODE GUI
+WAIT 1000
+TYPE cmd
+WAIT 1000
+PCODE CTRL SHIFT ENTER
+WAIT 1200
+PCODE ALT Y
+```
+after click on `Convert` button, the circuit python script of the following mnemonic is :
+
+```
+import time
+import usb_hid
+
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+
+kbd = Keyboard(usb_hid.devices)
+layout = KeyboardLayoutUS(kbd)
+
+kbd.send(Keycode.GUI)
+time.sleep(1.0)
+layout.write("cmd")
+time.sleep(1.0)
+kbd.press(Keycode.CONTROL, Keycode.SHIFT, Keycode.ENTER)
+kbd.release_all()
+time.sleep(1.2)
+kbd.press(Keycode.ALT, Keycode.Y)
+kbd.release_all()
+```
+Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
+
+## 3. Create a folder
+Mnemonic for Create a folder
+
+```
+HID
+
+HLIB
+
+KYBD
+
+PCODE CTRL SHIFT N
+WAIT 1200
+SCODE ENTER
+```
+after click on `Convert` button, the circuit python script of the following mnemonic is :
+
+```
+import time
+import usb_hid
+
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+
+kbd = Keyboard(usb_hid.devices)
+layout = KeyboardLayoutUS(kbd)
+
+kbd.press(Keycode.CONTROL, Keycode.SHIFT, Keycode.N)
+kbd.release_all()
+time.sleep(1.2)
+kbd.send(Keycode.ENTER)
 ```
 Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
