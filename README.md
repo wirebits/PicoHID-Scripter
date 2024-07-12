@@ -22,7 +22,7 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 
 # Demo Video
 
-https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6-afa4-1aa63fe0a0d9
+https://github.com/user-attachments/assets/d10dee85-15aa-44be-ab17-c47dd037e697
 
 # Setup
 1. Make sure that latest python and pip3 is installed on your system (Windows/Linux/MacOS).
