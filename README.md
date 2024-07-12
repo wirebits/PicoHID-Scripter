@@ -141,7 +141,6 @@ https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6
 5. Click on `Copy` button to copy the circuit python script to the clipboard.
 6. Paste the code in the `code.py` file in the `CIRCUITPY`.
    - Be Careful! As it is saved the script start executing.
-   - To code Raspberry Pi Pico, use Thonny IDE.
 
 # Start/Stop the Raspberry Pi Pico or Pico W
 1. If want to stop Raspberry Pi Pico or Pico W from execution, then connect the Male-To-Male jumper wires as shown in image below : 
