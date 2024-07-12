@@ -143,10 +143,12 @@ https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6
    - Be Careful! As it is saved the script start executing.
    - To code Raspberry Pi Pico, use Thonny IDE.
 
-# Start/Stop the Raspberry Pi Pico
-1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
+# Start/Stop the Raspberry Pi Pico or Pico W
+1. If want to stop Raspberry Pi Pico or Pico W from execution, then connect the Male-To-Male jumper wires as shown in image below : 
 
 ![RPIPICO](https://github.com/wirebits/PicoHID-Scripter/assets/159493381/1be784c2-cc24-48e0-baa8-d3b94bc7646e)
+
+![RPIPICOW](https://github.com/user-attachments/assets/f650002d-c8a8-4795-bbbd-b6a929dc5af9)
 
 2. If want to start again the execution, simply remove the jumper wires.
 
