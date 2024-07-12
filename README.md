@@ -8,6 +8,8 @@ A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry
 - Copy Button - Copy circuit python code to the clipboard so that it can paste anywhere
 - Reset Button - Clear all data from both windows
 - Save Button - Save circuit python codes on the system for future use
+- Upload Button - Upload circuit python code to the Raspberry Pi Pico or Pico W using file manager.
+- Refresh Button - It checks the connection of the Raspberry Pi Pico or Pico W and show its COM Port.
 - Exit Button - Close the application
 
 # OS Support
