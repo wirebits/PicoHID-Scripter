@@ -1,5 +1,19 @@
 # PicoHID-Scripter
-A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico.
+A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico Series.
+
+# Key Features
+- Simple and clean GUI
+- Two large windows one for mnemonics and other for circuit python code
+- Convert Button - Convert mnemonics to circuit python
+- Copy Button - Copy circuit python code to the clipboard so that it can paste anywhere
+- Reset Button - Clear all data from both windows
+- Save Button - Save circuit python codes on the system for future use
+- Exit Button - Close the application
+
+# OS Support
+- Windows 10
+- Windows 11
+- Kali Linux
 
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
@@ -8,25 +22,31 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 
 https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6-afa4-1aa63fe0a0d9
 
-# Setup and Installation of Circuit Python
-1. Make sure the python is installed on your system (Windows/Linux/MacOS).<br>
-2. Download Circuit Python <b>.uf2</b> file for Raspberry Pi Pico from <a href="https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.2.10.uf2">here</a>.<br>
-3. Connect Raspberry Pi Pico with a USB cable.<br>
-4. Press and hold the bootsel button and connect to the PC/Laptop.<br>
--When it connects, then Raspberry Pi Pico show as a removable storage device named ```RPI-RP2```.<br>
--When ```RPI-RP2``` is showing, then release the bootsel button.<br>
-5. Copy the uf2 file in the ```RPI-RP2```.<br>
--When it is copied, then it disconnects automatically and reconnect as ```CIRCUITPY```.<br>
-Means circuit python is successfully flashed in the Raspberry Pi Pico.
-6. Open ```CIRCUITPY```.<br>
--There are two important things in it : ```lib``` folder and ```code.py``` file<br>
-7. Download Adafruit CircuitPython Bundle from <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20240301/adafruit-circuitpython-bundle-8.x-mpy-20240301.zip">here</a>.<br>
-8. Extarct the ZIP file.<br>
-9. Copy ```adafruit_hid``` folder in the ```lib``` folder of ```CIRCUITPY```.<br>
-10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
+# Installation and Setup of Circuit Python
+1. Make sure that latest python is installed on your system (Windows/Linux/MacOS).
+2. Download Circuit Python `.uf2` file :
+   - Raspberry Pi Pico - [here](https://circuitpython.org/board/raspberry_pi_pico/)
+   - Raspberry P i Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
+   - Latest version is **9.1.0** for both.
+3. Connect Raspberry Pi Pico or Pico W with a USB cable.
+4. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
+   - When it connects, then Raspberry Pi Pico or Pico W show as a removable storage device named `RPI-RP2`.
+   - When `RPI-RP2` is showing, then release the bootsel button.
+5. Copy the `uf2` file in the `RPI-RP2`.
+   - When it is copied, then it disconnects automatically and reconnect as `CIRCUITPY`.
+   - Means circuit python is successfully flashed in the Raspberry Pi Pico or Pico W.
+6. Open `CIRCUITPY`.
+   - There are two important things in it : `lib` folder and `code.py` file.
+7. Download Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
+   - Latest is `adafruit-circuitpython-bundle-9.x-mpy-20240709.zip`.
+8. Extarct the ZIP file.
+9. Go to the `lib` folder in the extracted ZIP file.
+10. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
+11. Done! Now, Raspberry Pi Pico or Pico W is ready to use as a USB Rubber Ducky.
 
 # Supported Boards
 - Raspberry Pi Pico
+- Raspberry Pi Pico W
 - Waveshare RP2040 Zero
 
 # Mnemonic Table
@@ -37,34 +57,34 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>Example</th>
  </tr>
  <tr>
-  <th>TIME</th>
-  <th>It adds the <i>time</i> library in the code.</th>
-  <th>Just type TIME</th>
- </tr>
- <tr>
-  <th>BOARD</th>
-  <th>It adds the <i>board</i> library in the code.</th>
-  <th>Just type BD</th>
- </tr>
- <tr>
-  <th>DGIO</th>
-  <th>It adds the <i>digitalio</i> library in the code.</th>
-  <th>Just type DGIO</th>
- </tr>
- <tr>
   <th>HID</th>
-  <th>It adds the <i>usb_hid</i> library in the code.</th>
+  <th>It adds the time and usb_hid libraries in the code.</th>
   <th>Just type HID</th>
  </tr>
  <tr>
+  <th>HWD</th>
+  <th>It adds the board and digitalio libraries in the code.</th>
+  <th>Just type HWD</th>
+ </tr>
+ <tr>
   <th>HLIB</th>
-  <th>It adds the <i>Keycode</i>, <i>Keyboard</i> and <i>KeyboardLayoutUS</i> libaries in the code.</th>
+  <th>It adds the Keycode, Keyboard and KeyboardLayoutUS libraries in the code.</th>
   <th>Just type HLIB</th>
+ </tr>
+ <tr>
+  <th>MOUSE</th>
+  <th>It adds the Mouse library in the code.</th>
+  <th>Just type MOUSE</th>
  </tr>
  <tr>
   <th>KYBD</th>
   <th>It create objects for keycode and keyboard layout in the code.</th>
   <th>Just type KYBD</th>
+ </tr>
+ <tr>
+  <th>MSE</th>
+  <th>It create objects for mouse in the code.</th>
+  <th>Just type MSE</th>
  </tr>
  <tr>
   <th>PIN</th>
@@ -96,13 +116,44 @@ Means circuit python is successfully flashed in the Raspberry Pi Pico.
   <th>It press and hold the key(s) and release all key(s).</th>
   <th>PCODE S</th>
  </tr>
+ <tr>
+  <th>MOVE</th>
+  <th>It moves the mouse pointer according to the values.<br>Values are x-axis, y-axis and scroll.<br> Values may be positive, negative or ZERO.<br>Values in sequence - x-axis, y-axis, scroll.</th>
+  <th>MOVE 36 -78 0</th>
+ </tr>
+ <tr>
+  <th>CLICK</th>
+  <th>It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.</th>
+  <th>CLICK LEFT</th>
+ </tr>
+ <tr>
+  <th>PRESS</th>
+  <th>It press the mouse buttons and relaese immediately.<br>Values are LEFT, MIDDLE and RIGHT.</th>
+  <th>PRESS RIGHT</th>
+ </tr>
 </table>
+
+# Install and Run
+1. Download or Clone the Repository.
+2. Open the folder and just double click on `PicoHIDScripter.py` file.
+3. Type the mnemonics in the left window.
+4. Click on `Convert` button to get corresponding circuit python script.
+5. Click on `Copy` button to copy the circuit python script to the clipboard.
+6. Paste the code in the `code.py` file in the `CIRCUITPY`.
+   - Be Careful! As it is saved the script start executing.
+   - To code Raspberry Pi Pico, use Thonny IDE.
+
+# Start/Stop the Raspberry Pi Pico
+1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
+
+![RPIPICO](https://github.com/wirebits/PicoHID-Scripter/assets/159493381/1be784c2-cc24-48e0-baa8-d3b94bc7646e)
+
+2. If want to start again the execution, simply remove the jumper wires.
 
 # Example
 Mnemonic for Open Notepad and Type
 
 ```
-TIME
 HID
 
 HLIB
@@ -117,7 +168,7 @@ SCODE ENTER
 WAIT 1000
 TYPE This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
-after click on ```Convert``` button, the circuit python script of the following mnemonic is :<br>
+after click on `Convert` button, the circuit python script of the following mnemonic is :
 
 ```
 import time
@@ -139,34 +190,4 @@ kbd.send(Keycode.ENTER)
 time.sleep(1.0)
 layout.write("This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!")
 ```
-Just copy this code and paste it in the ```code.py``` file in the ```CIRCUITPY```.<br>
-# Tested Systems
-The tool is currently tested on : <br>
-1. Windows (10)<br>
-2. Kali Linux<br>
-The testing is going on different systems.
-
-# Install and Run
-1. Download or Clone the Repository.<br>
-2. Open the folder and just double click on PicoHIDScripter.py file.<br>
-3. Type the mnemonics in the left window.<br>
-4. Click on ```Convert``` button to get corresponding circuit python script.<br>
-5. Click on ```Copy``` button to copy the circuit python script to the clipboard.<br>
-6. Paste the code in the ```code.py``` file in the ```CIRCUITPY```.<br>
--Be Careful! As it is saved the script start executing.<br>
--To code Raspberry Pi Pico, use Thonny IDE.<br>
-
-# Start/Stop the Raspberry Pi Pico
-1. If want to stop Raspberry Pi Pico from execution, then connect the Male-To-Male jumper wires as shown in image below : <br>
-
-![RPIPICO](https://github.com/wirebits/PicoHID-Scripter/assets/159493381/1be784c2-cc24-48e0-baa8-d3b94bc7646e)
-
-2. If want to start again the execution, simply remove the jumper wires.
-<h1>Key Features</h1>
-<b>1. Simple and clean GUI.</b><br>
-<b>2. Two large windows one for mnemonics and other for circuit python code.</b><br>
-<b>3. Convert Button - Convert mnemonics to circuit python.</b><br>
-<b>4. Copy Button - Copy circuit python code to the clipboard so that it can paste anywhere.</b><br>
-<b>5. Reset Button - Clear all data from both windows.</b><br>
-<b>6. Save Button - Save circuit python codes on the system for future use.</b><br>
-<b>7. Exit Button - Close the application.</b><br>
+Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
