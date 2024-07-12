@@ -22,27 +22,33 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 
 https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6-afa4-1aa63fe0a0d9
 
+# Setup
+1. Make sure that latest python and pip3 is installed on your system (Windows/Linux/MacOS).
+2. Install the *pyserial* module on your system (Windows/Linux/MacOS) by copy and run the following command :
+```
+pip3 install -r requirements.txt
+```
+
 # Installation and Setup of Circuit Python
-1. Make sure that latest python is installed on your system (Windows/Linux/MacOS).
-2. Download Circuit Python `.uf2` file :
+1. Download Circuit Python `.uf2` file :
    - Raspberry Pi Pico - [here](https://circuitpython.org/board/raspberry_pi_pico/)
    - Raspberry P i Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
    - Latest version is **9.1.0** for both.
-3. Connect Raspberry Pi Pico or Pico W with a USB cable.
-4. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
+2. Connect Raspberry Pi Pico or Pico W with a USB cable.
+3. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
    - When it connects, then Raspberry Pi Pico or Pico W show as a removable storage device named `RPI-RP2`.
    - When `RPI-RP2` is showing, then release the bootsel button.
-5. Copy the `uf2` file in the `RPI-RP2`.
+4. Copy the `uf2` file in the `RPI-RP2`.
    - When it is copied, then it disconnects automatically and reconnect as `CIRCUITPY`.
    - Means circuit python is successfully flashed in the Raspberry Pi Pico or Pico W.
-6. Open `CIRCUITPY`.
+5. Open `CIRCUITPY`.
    - There are two important things in it : `lib` folder and `code.py` file.
-7. Download Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
+6. Download Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
    - Latest is `adafruit-circuitpython-bundle-9.x-mpy-20240709.zip`.
-8. Extarct the ZIP file.
-9. Go to the `lib` folder in the extracted ZIP file.
-10. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
-11. Done! Now, Raspberry Pi Pico or Pico W is ready to use as a USB Rubber Ducky.
+7. Extarct the ZIP file.
+8. Go to the `lib` folder in the extracted ZIP file.
+9. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
+10. Done! Now, Raspberry Pi Pico or Pico W is ready to use as a USB Rubber Ducky.
 
 # Supported Boards
 - Raspberry Pi Pico
