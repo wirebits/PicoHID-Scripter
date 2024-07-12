@@ -50,88 +50,23 @@ https://github.com/wirebits/PicoHID-Scripter/assets/159493381/bbdf189b-318c-45b6
 - Waveshare RP2040 Zero
 
 # Mnemonic Table
-<table>
- <tr>
-  <th>Mnemonics</th>
-  <th>Description</th>
-  <th>Example</th>
- </tr>
- <tr>
-  <th>HID</th>
-  <th>It adds the time and usb_hid libraries in the code.</th>
-  <th>Just type HID</th>
- </tr>
- <tr>
-  <th>HWD</th>
-  <th>It adds the board and digitalio libraries in the code.</th>
-  <th>Just type HWD</th>
- </tr>
- <tr>
-  <th>HLIB</th>
-  <th>It adds the Keycode, Keyboard and KeyboardLayoutUS libraries in the code.</th>
-  <th>Just type HLIB</th>
- </tr>
- <tr>
-  <th>MOUSE</th>
-  <th>It adds the Mouse library in the code.</th>
-  <th>Just type MOUSE</th>
- </tr>
- <tr>
-  <th>KYBD</th>
-  <th>It create objects for keycode and keyboard layout in the code.</th>
-  <th>Just type KYBD</th>
- </tr>
- <tr>
-  <th>MSE</th>
-  <th>It create objects for mouse in the code.</th>
-  <th>Just type MSE</th>
- </tr>
- <tr>
-  <th>PIN</th>
-  <th>It add pin declaration in the code.</th>
-  <th>Just type PIN</th>
- </tr>
- <tr>
-  <th>LED</th>
-  <th>It turns on/off the led in the code.<br>Values are ON and OFF.</th>
-  <th>LED ON</th>
- </tr>
- <tr>
-  <th>WAIT</th>
-  <th>It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.</th>
-  <th>WAIT 1000</th>
- </tr>
- <tr>
-  <th>TYPE</th>
-  <th>It add text want to type in the code.</th>
-  <th>TYPE Hello World!</th>
- </tr>
- <tr>
-  <th>SCODE</th>
-  <th>It press and release the key(s) immediately.</th>
-  <th>SCODE A</th>
- </tr>
- <tr>
-  <th>PCODE</th>
-  <th>It press and hold the key(s) and release all key(s).</th>
-  <th>PCODE S</th>
- </tr>
- <tr>
-  <th>MOVE</th>
-  <th>It moves the mouse pointer according to the values.<br>Values are x-axis, y-axis and scroll.<br> Values may be positive, negative or ZERO.<br>Values in sequence - x-axis, y-axis, scroll.</th>
-  <th>MOVE 36 -78 0</th>
- </tr>
- <tr>
-  <th>CLICK</th>
-  <th>It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.</th>
-  <th>CLICK LEFT</th>
- </tr>
- <tr>
-  <th>PRESS</th>
-  <th>It press the mouse buttons and relaese immediately.<br>Values are LEFT, MIDDLE and RIGHT.</th>
-  <th>PRESS RIGHT</th>
- </tr>
-</table>
+| Mnemonics | Description | Example  |
+|-----------|-------------|----------|
+| HID       | It adds the time and usb_hid libraries in the code.     | Just type HID     |
+| HWD       | It adds the board and digitalio libraries in the code.  | Just type HWD     |
+| HLIB      | It adds the Keycode, Keyboard and KeyboardLayoutUS libraries in the code.| Just type HLIB|
+| MOUSE     | It adds the Mouse library in the code.| Just type MOUSE|
+| KYBD		| It create objects for keycode and keyboard layout in the code.| Just type KYBD|
+| MSE       | It create objects for mouse in the code.| Just type MSE|
+| PIN       | It add pin declaration in the code.| Just type PIN|
+| LED       | It turns on/off the led in the code.<br>Values are ON and OFF.| LED ON|
+| WAIT      | It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.| WAIT 1000|
+| TYPE      | It add text want to type in the code.| TYPE Hello World!|
+| SCODE     | It press and release the key(s) immediately.| SCODE A|
+| PCODE     | It press and hold the key(s) and release all key(s).| PCODE S|
+| MOVE      | It moves the mouse pointer according to the values.<br>Values are x-axis, y-axis and scroll.<br> Values may be positive, negative or ZERO.<br>Values in sequence - x-axis, y-axis, scroll.| MOVE 36 -78 0|
+| CLICK     | It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.| CLICK LEFT|
+| PRESS     | It press the mouse buttons and relaese immediately.<br>Values are LEFT, MIDDLE and RIGHT.| PRESS RIGHT|
 
 # Install and Run
 1. Download or Clone the Repository.
