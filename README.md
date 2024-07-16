@@ -76,6 +76,25 @@ pip3 install -r requirements.txt
 | CLICK     | It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.| CLICK LEFT|
 | PRESS     | It press the mouse buttons and relaese immediately.<br>Values are LEFT, MIDDLE and RIGHT.| PRESS RIGHT|
 
+The above mnemonic table is in pdf now.
+
+# Supported Mnemonics
+## Alphabet Keys
+`A` `B` `C` `D` `E` `F` `G` `H` `I` `J` `K` `L` `M` `N` `O` 
+`P` `Q` `R` `S` `T` `U` `V` `W` `X` `Y` `Z`
+## Function Keys
+`F1` `F2` `F3` `F4` `F5` `F6` `F7` `F8` `F9` `F10` `F11` `F12`
+## Navigation Keys
+`LEFT` `UP` `RIGHT` `DOWN` `TAB` `HOME` `END` `PGUP` `PGDN`
+## Lock Keys
+`CAPS` `NUM` `SCROLL`
+## System and GUI Keys
+`GUI` `ESC` `PRTSCR` `PAUSE`
+## Editing Keys
+`INSERT` `DEL` `BKSP` `ENTER`
+## Modifier Keys
+`CTRL` `SHIFT` `ALT`
+
 # Install and Run
 1. Download or Clone the Repository.
 2. Open the folder and just double click on `PicoHIDScripter.py` file.
