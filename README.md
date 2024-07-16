@@ -17,6 +17,9 @@ A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry
 - Windows 11
 - Kali Linux
 
+# Note
+In Kali Linux, the upload feature is not working.
+
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
 
