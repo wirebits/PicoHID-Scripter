@@ -37,8 +37,11 @@ pip3 install -r requirements.txt
 # Installation and Setup of Circuit Python
 1. Download Circuit Python `.uf2` file :
    - Raspberry Pi Pico - [here](https://circuitpython.org/board/raspberry_pi_pico/)
-   - Raspberry P i Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
-   - Latest version is **9.1.0** for both.
+   - Raspberry Pi Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
+   - Raspberry Pi Zero W - [here](https://circuitpython.org/board/raspberrypi_zero_w/)
+   - Waveshare RP2040 Zero - [here](https://circuitpython.org/board/waveshare_rp2040_zero/)
+   - Latest version is **9.1.1** for all.
+   - For `Raspberry Pi Zero W`, download `.DISK.IMG.ZIP` file.
 2. Connect Raspberry Pi Pico or Pico W with a USB cable.
 3. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
    - When it connects, then Raspberry Pi Pico or Pico W show as a removable storage device named `RPI-RP2`.
