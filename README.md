@@ -58,6 +58,7 @@ pip3 install -r requirements.txt
 # Supported Boards
 - Raspberry Pi Pico
 - Raspberry Pi Pico W
+- Raspberry Pi Zero W
 - Waveshare RP2040 Zero
 
 # Mnemonic Table
