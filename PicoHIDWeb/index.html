@@ -1,0 +1,28 @@
+<!-- HTML File for PicoHIDWeb-->
+<!-- Author - WireBits-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>PicoHIDWeb</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">PicoHID Web</div>
+        <div class="textareas-container">
+            <textarea id="mnemonicsArea" class="textarea" placeholder="Enter Mnemonics"></textarea>
+            <textarea id="picoArea" class="textarea" placeholder="Your Pico Script"></textarea>
+        </div>
+        <div class="buttons">
+            <button class="convert" onclick="convertMnemonics()">Convert</button>
+            <button class="copy" onclick="copyPicoArea()">Copy</button>
+            <button class="reset" onclick="resetTextArea()">Reset</button>
+			<button class="save" onclick="saveFile()">Save</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
