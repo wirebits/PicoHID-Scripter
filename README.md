@@ -66,8 +66,6 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 | CLICK    | It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.                                                                                                                            | CLICK LEFT                         |
 | PRESS    | It press the mouse buttons and releases immediately.<br>Values are LEFT, MIDDLE and RIGHT.                                                                                                    | PRESS RIGHT                        |
 
-The above mnemonic table is in pdf now.
-
 # Supported Mnemonics
 ## Alphabet Keys
 `A` `B` `C` `D` `E` `F` `G` `H` `I` `J` `K` `L` `M` `N` `O` 
