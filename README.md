@@ -1,5 +1,5 @@
 # PicoHID-Scripter
-A GUI tool that generates CircuitPython HID scripts for Raspberry Pi Pico Series using Mnemonics.
+A GUI tool that generates CircuitPython HID scripts for RP2040 & RP2350 chipsets supported microcontroller borads using Mnemonics.
 
 # Key Features
 - Simple and clean GUI.
@@ -23,7 +23,7 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 - Make sure that latest python and pip3 is installed on your system (Windows/Linux/MacOS).
 
 # Installation and Setup of Circuit Python
-1. Download Circuit Python `.uf2` file :
+1. Downloadb latest Circuit Python `.uf2` file :
    - Raspberry Pi Pico - [here](https://circuitpython.org/board/raspberry_pi_pico/)
    - Raspberry Pi Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
    - Raspberry Pi Zero W - [here](https://circuitpython.org/board/raspberrypi_zero_w/)
@@ -38,17 +38,14 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
    - Means circuit python is successfully flashed in the Raspberry Pi Pico or Pico W.
 5. Open `CIRCUITPY`.
    - There are two important things in it : `lib` folder and `code.py` file.
-6. Download Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
+6. Download latest Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
 7. Extarct the ZIP file.
 8. Go to the `lib` folder in the extracted ZIP file.
 9. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
 10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
 
 # Supported Boards
-- Raspberry Pi Pico
-- Raspberry Pi Pico W
-- Raspberry Pi Zero W
-- Waveshare RP2040 Zero
+- Those microcontroller borads which have RP2040 & RP2350 chipsets.
 
 # Mnemonic Table
 | Mnemonic | Description                                                                                                                                                                                   | Example                            |
