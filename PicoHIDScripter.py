@@ -1,5 +1,5 @@
 # PicoHID Scripter
-# A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico Series.
+# A GUI tool that generates CircuitPython HID scripts for Raspberry Pi Pico Series using Mnemonics.
 # Author - WireBits
 
 import tkinter as tk
