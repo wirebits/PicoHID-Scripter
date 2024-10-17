@@ -1,38 +1,26 @@
 # PicoHID-Scripter
-A GUI tool that generates CircuitPython HID scripts from mnemonics for Raspberry Pi Pico Series.
+A GUI tool that generates CircuitPython HID scripts for Raspberry Pi Pico Series using Mnemonics.
 
 # Key Features
-- Simple and clean GUI
-- Two large windows one for mnemonics and other for circuit python code
-- Convert Button - Convert mnemonics to circuit python
-- Copy Button - Copy circuit python code to the clipboard so that it can paste anywhere
-- Reset Button - Clear all data from both windows
+- Simple and clean GUI.
+- Two large windows one for mnemonics and other for circuit python code.
+- Convert Button - Convert mnemonics to circuit python.
+- Copy Button - Copy circuit python code to the clipboard so that it can paste anywhere.
+- Reset Button - Clear all data from both windows.
 - Save Button - Save circuit python codes on the system for future use
-- Upload Button - Upload circuit python code to the Raspberry Pi Pico or Pico W using file manager.
-- Refresh Button - It checks the connection of the Raspberry Pi Pico or Pico W and show its COM Port.
-- Exit Button - Close the application
+- From Button - Upload mnemonics from `.txt` files to convert into CircuitPython Code.
+- Exit Button - Close the application.
 
 # OS Support
 - Windows 10
 - Windows 11
 - Kali Linux
 
-# Note
-In Kali Linux, the upload feature is not working.
-
 # Credits
 The mnemoics used in this tool is heavily inspired by <a href="https://github.com/hak5">Hak5</a> Ducky Script.<br>
 
-# Demo Video
-
-https://github.com/user-attachments/assets/d10dee85-15aa-44be-ab17-c47dd037e697
-
 # Setup
-1. Make sure that latest python and pip3 is installed on your system (Windows/Linux/MacOS).
-2. Install the *pyserial* module on your system (Windows/Linux/MacOS) by copy and run the following command :
-```
-pip3 install -r requirements.txt
-```
+- Make sure that latest python and pip3 is installed on your system (Windows/Linux/MacOS).
 
 # Installation and Setup of Circuit Python
 1. Download Circuit Python `.uf2` file :
@@ -40,7 +28,6 @@ pip3 install -r requirements.txt
    - Raspberry Pi Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
    - Raspberry Pi Zero W - [here](https://circuitpython.org/board/raspberrypi_zero_w/)
    - Waveshare RP2040 Zero - [here](https://circuitpython.org/board/waveshare_rp2040_zero/)
-   - Latest version is **9.1.1** for all.
    - For `Raspberry Pi Zero W`, download `.DISK.IMG.ZIP` file.
 2. Connect Raspberry Pi Pico or Pico W with a USB cable.
 3. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
@@ -52,11 +39,10 @@ pip3 install -r requirements.txt
 5. Open `CIRCUITPY`.
    - There are two important things in it : `lib` folder and `code.py` file.
 6. Download Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
-   - Latest is `adafruit-circuitpython-bundle-9.x-mpy-20240709.zip`.
 7. Extarct the ZIP file.
 8. Go to the `lib` folder in the extracted ZIP file.
 9. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
-10. Done! Now, Raspberry Pi Pico or Pico W is ready to use as a USB Rubber Ducky.
+10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
 
 # Supported Boards
 - Raspberry Pi Pico
@@ -65,23 +51,20 @@ pip3 install -r requirements.txt
 - Waveshare RP2040 Zero
 
 # Mnemonic Table
-| Mnemonics | Description | Example  |
-|-----------|-------------|----------|
-| HID       | It adds the time and usb_hid libraries in the code.     | Just type HID     |
-| HWD       | It adds the board and digitalio libraries in the code.  | Just type HWD     |
-| HLIB      | It adds the Keycode, Keyboard and KeyboardLayoutUS libraries in the code.| Just type HLIB|
-| MOUSE     | It adds the Mouse library in the code.| Just type MOUSE|
-| KYBD		| It create objects for keycode and keyboard layout in the code.| Just type KYBD|
-| MSE       | It create objects for mouse in the code.| Just type MSE|
-| PIN       | It add pin declaration in the code.| Just type PIN|
-| LED       | It turns on/off the led in the code.<br>Values are ON and OFF.| LED ON|
-| WAIT      | It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.| WAIT 1000|
-| TYPE      | It add text want to type in the code.| TYPE Hello World!|
-| SCODE     | It press and release the key(s) immediately.| SCODE A|
-| PCODE     | It press and hold the key(s) and release all key(s).| PCODE S|
-| MOVE      | It moves the mouse pointer according to the values.<br>Values are x-axis, y-axis and scroll.<br> Values may be positive, negative or ZERO.<br>Values in sequence - x-axis, y-axis, scroll.| MOVE 36 -78 0|
-| CLICK     | It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.| CLICK LEFT|
-| PRESS     | It press the mouse buttons and relaese immediately.<br>Values are LEFT, MIDDLE and RIGHT.| PRESS RIGHT|
+| Mnemonic | Description                                                                                                                                                                                   | Example                            |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| TIME     | It adds the time library in the code.                                                                                                                                                         | Just type TIME                     |
+| HWD      | It adds the board and digitalio libraries in the code.                                                                                                                                        | Just type HWD                      |
+| HID      | It adds the usb_hid library in the code.                                                                                                                                                      | Just type HID                      |
+| KEYBOARD | It adds the Keycode, Keyboard and KeyboardLayoutUS libraries and also create objects for keycode and keyboard layout in the code.                                                             | Just type KEYBOARD                 |
+| MOUSE    | It adds the Mouse library and also create objects for mouse in the code.                                                                                                                      | Just type MOUSE                    |
+| PIN      | It add pin declaration in the code.                                                                                                                                                           | Just type PIN                      |
+| LED      | It turns on/off the led in the code.<br>Values are ON and OFF.                                                                                                                                | LED ON                             |
+| WAIT     | It add time in the code.<br>Time is in milliseconds.<br>1000 ms = 1 second.                                                                                                                   | WAIT 1000                          |
+| TYPE     | It add text want to type in the code.                                                                                                                                                         | TYPE Hello World!                  |
+| MOVE     | It moves the mouse pointer according to the values.<br>Values are x-axis, y-axis and scroll.<br>Values may be positive, negative or ZERO.<br>Values in sequence - x-axis -> y-axis -> scroll. | MOVE 36 -78 0                      |
+| CLICK    | It clicks the mouse buttons.<br>Values are LEFT, MIDDLE and RIGHT.                                                                                                                            | CLICK LEFT                         |
+| PRESS    | It press the mouse buttons and releases immediately.<br>Values are LEFT, MIDDLE and RIGHT.                                                                                                    | PRESS RIGHT                        |
 
 The above mnemonic table is in pdf now.
 
@@ -106,8 +89,8 @@ The above mnemonic table is in pdf now.
 1. Download or Clone the Repository.
 2. Open the folder and just double click on `PicoHIDScripter.py` file.
 3. Type the mnemonics in the left window.
-4. Click on `Convert` button to get corresponding circuit python script.
-5. Click on `Copy` button to copy the circuit python script to the clipboard.
+4. Click on `Convert` button to get corresponding CircuitPython script.
+5. Click on `Copy` button to copy the CircuitPython script to the clipboard.
 6. Paste the code in the `code.py` file in the `CIRCUITPY`.
    - Be Careful! As it is saved the script start executing.
 
@@ -125,17 +108,16 @@ The above mnemonic table is in pdf now.
 Mnemonic for Open Notepad and Type
 
 ```
+TIME
 HID
 
-HLIB
+KEYBOARD
 
-KYBD
-
-PCODE GUI R
+GUI R
 WAIT 1000
 TYPE notepad
 WAIT 1000
-SCODE ENTER
+ENTER
 WAIT 1000
 TYPE This is a test for Raspberry Pi Pico script developed by PicoHID Scripter!
 ```
@@ -167,19 +149,18 @@ Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
 Mnemonic for Open CMD as Administartor Mode
 
 ```
+TIME
 HID
 
-HLIB
+KEYBOARD
 
-KYBD
-
-SCODE GUI
+GUI
 WAIT 1000
 TYPE cmd
 WAIT 1000
-PCODE CTRL SHIFT ENTER
+CTRL SHIFT ENTER
 WAIT 1200
-PCODE ALT Y
+ALT Y
 ```
 after click on `Convert` button, the circuit python script of the following mnemonic is :
 
@@ -210,15 +191,14 @@ Just copy this code and paste it in the `code.py` file in the `CIRCUITPY`.
 Mnemonic for Create a folder
 
 ```
+TIME
 HID
 
-HLIB
+KEYBOARD
 
-KYBD
-
-PCODE CTRL SHIFT N
+CTRL SHIFT N
 WAIT 1200
-SCODE ENTER
+ENTER
 ```
 after click on `Convert` button, the circuit python script of the following mnemonic is :
 
