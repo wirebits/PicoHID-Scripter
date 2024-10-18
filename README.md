@@ -1,5 +1,5 @@
 # PicoHID-Scripter
-A GUI tool that generates CircuitPython HID scripts for RP2040 & RP2350 chipsets supported microcontroller boards using Mnemonics.
+A GUI tool that generates CircuitPython HID scripts for Raspberry Pi Pico Series using Mnemonics.
 
 # Key Features
 - Simple and clean GUI.
@@ -26,26 +26,26 @@ The mnemoics used in this tool is heavily inspired by <a href="https://github.co
 1. Downloadb latest Circuit Python `.uf2` file :
    - Raspberry Pi Pico - [here](https://circuitpython.org/board/raspberry_pi_pico/)
    - Raspberry Pi Pico W - [here](https://circuitpython.org/board/raspberry_pi_pico_w/)
-   - Raspberry Pi Zero W - [here](https://circuitpython.org/board/raspberrypi_zero_w/)
-   - Waveshare RP2040 Zero - [here](https://circuitpython.org/board/waveshare_rp2040_zero/)
-   - For `Raspberry Pi Zero W`, download `.DISK.IMG.ZIP` file.
-2. Connect Raspberry Pi Pico or Pico W with a USB cable.
+   - Raspberry Pi Pico 2 - [here](https://circuitpython.org/board/raspberry_pi_pico2/)
+2. Connect Raspberry Pi Pico Series Board with a USB cable.
 3. Press and hold the `BOOTSEL` button and connect to the PC/Laptop.
-   - When it connects, then Raspberry Pi Pico or Pico W show as a removable storage device named `RPI-RP2`.
+   - When it connects, then Raspberry Pi Pico Series Board show as a removable storage device named `RPI-RP2`.
    - When `RPI-RP2` is showing, then release the bootsel button.
 4. Copy the `uf2` file in the `RPI-RP2`.
    - When it is copied, then it disconnects automatically and reconnect as `CIRCUITPY`.
-   - Means circuit python is successfully flashed in the Raspberry Pi Pico or Pico W.
+   - Means circuit python is successfully flashed in the Raspberry Pi Pico Series Board.
 5. Open `CIRCUITPY`.
    - There are two important things in it : `lib` folder and `code.py` file.
 6. Download latest Adafruit CircuitPython Bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
 7. Extarct the ZIP file.
 8. Go to the `lib` folder in the extracted ZIP file.
 9. Copy `adafruit_hid` folder in the `lib` folder of `CIRCUITPY`.
-10. Done! Now, Raspberry Pi Pico is ready to use as a USB Rubber Ducky.
+10. Done! Now, Raspberry Pi Pico Series Board is ready to use as a USB Rubber Ducky.
 
 # Supported Boards
-- Those microcontroller borads which have RP2040 & RP2350 chipsets.
+- Raspberry Pi Pico
+- Raspberry Pi Pico W
+- Raspberry Pi Pico 2
 
 # Mnemonic Table
 | Mnemonic | Description                                                                                                                                                                                   | Example                            |
