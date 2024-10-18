@@ -1,5 +1,5 @@
 # PicoHID Scripter
-# A GUI tool that generates CircuitPython HID scripts for RP2040 & RP2350 chipsets supported microcontroller boards using Mnemonics.
+# A GUI tool that generates CircuitPython HID scripts for Raspberry Pi Pico Series using Mnemonics.
 # Author - WireBits
 
 import tkinter as tk
